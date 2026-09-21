@@ -1,0 +1,87 @@
+p{
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+ul{
+    list-style-type: square
+}
+
+a{
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navegador{
+    color: #666;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+header{
+    background-color: rgb(226, 196, 156);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+nav li{
+    text-align: center
+}
+
+a:hover{
+    color: red;
+}
+body{
+    margin: 0px;
+}
+
+img{
+    border: 2px solid blue;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    filter: sepia(100%);
+    text-align: center;
+}
+
+img:hover{
+    filter: brightness(50%)
+}
+
+table{
+    margin: auto;
+}
+
+#imagem {
+    text-align: center;
+}
+
+th{
+    border: 1px black solid;
+    background-color: rgb(183, 190, 183);
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+tr{
+    border: 1px solid black;
+    background-color: rgb(230, 230, 185);
+    text-align: center;
+    padding: 2px;
+}
