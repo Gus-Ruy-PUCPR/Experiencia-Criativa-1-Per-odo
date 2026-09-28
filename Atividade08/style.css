@@ -4,11 +4,18 @@ p{
     font-size: 18px;
     text-align: center;
 }
+body {
+    background-color: rgb(226, 196, 156);
+}
 
 h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     text-align: center;
+}
+
+h3 {
+    margin-top: 0px;
 }
 
 ol{
@@ -19,11 +26,21 @@ ul{
     list-style-type: square
 }
 
-a{
-    color: green;
+#rodape {
+    background-color: rgb(226, 196, 156);
+    margin-top: 0px;
+    padding: 15px;
+}
+
+#rodape a{
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+#div-rodape {
+    align-items: bottom;
 }
 
 .navegador{
@@ -44,7 +61,7 @@ nav li{
 }
 
 a:hover{
-    color: red;
+    color: black;
 }
 body{
     margin: 0px;
@@ -52,8 +69,8 @@ body{
 
 img{
     border: 2px solid blue;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     filter: sepia(100%);
     text-align: center;
@@ -63,12 +80,24 @@ img:hover{
     filter: brightness(50%)
 }
 
-table{
-    margin: auto;
+
+#flex {
+    display: flex;
+    background-color: gray;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+#flex-esquerda {
+    display: flex;
+    padding-left: 3vw;
+    gap: 10px;
+
 }
 
 #imagem {
-    text-align: center;
+    text-align: left;
+    padding: 5px;
 }
 
 th{
@@ -85,3 +114,30 @@ tr{
     text-align: center;
     padding: 2px;
 }
+
+#indice {
+    padding-left: 3px;
+    min-width: 15vw;
+    text-align: left;
+    background-color: rgb(165, 165, 165);
+}
+
+#indice li {
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#indice a {
+    color: black;
+    text-decoration: none;
+    padding: 1px;
+}
+
+#indice a:hover {
+    text-decoration: underline;
+    color: rgb(226, 196, 156);
+}
+
